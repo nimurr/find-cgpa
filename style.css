@@ -5,6 +5,9 @@
     text-align: center;
     font-size: 50px;
 }
+#heading span{
+    color: tomato;
+}
 #mainContianer{
     width: 40%;
     margin: auto; 
@@ -34,7 +37,7 @@
 #Your-result {
     font-size: 30px ;
     font-weight: bold;
-    color: red;
+    color: tomato;
 }
 .cgpa{
     font-size: 30px ;
