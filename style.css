@@ -1,0 +1,46 @@
+*{
+    font-family: arial;
+}
+#heading{
+    text-align: center;
+    font-size: 50px;
+}
+#mainContianer{
+    width: 40%;
+    margin: auto; 
+}
+#mainContianer input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    border:  2px solid tomato;
+    padding: 20px;
+}
+#findCgpa{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background: tomato;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+#Your-result {
+    font-size: 30px ;
+    font-weight: bold;
+    color: red;
+}
+.cgpa{
+    font-size: 30px ;
+    font-weight: bold;
+}
+label{
+    font-weight: 600;
+    
+}
